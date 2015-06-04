@@ -1,0 +1,1 @@
+install(DIRECTORY Breeze_Contrast DESTINATION ${ICON_INSTALL_DIR})
