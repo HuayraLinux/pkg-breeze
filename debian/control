@@ -1,0 +1,17 @@
+Source: huayra-cursors-theme
+Section: misc
+Priority: optional
+Maintainer: Matias De lellis <mati86dl@gmail.com>
+Build-Depends: debhelper (>= 7), inkscape (>= 0.48), x11-apps (>= 7.7)
+Standards-Version: 3.8.1
+
+Package: huayra-cursors-theme
+Section: misc
+Priority: optional
+Architecture: all
+Depends: ${misc:Depends}
+Description: Todos los temas de cursores para Huayra GNU/Linux.
+ Entan basados en el thema Breeze utilizado en Kde 5.0, y
+ fueron modificados para proveer tamaños grandes para mejorar
+ la accesibildad.
+
