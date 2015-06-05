@@ -7,6 +7,7 @@ THEMES="Bread \
 	Breeze_Contrast \
 	Breeze_Golgari \
 	Breeze_Hacked \
+	Breeze_Huayra \
 	Breeze_Obsidian \
 	Breeze_Purple \
 	Breeze_Red \

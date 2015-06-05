@@ -1,3 +1,9 @@
+huayra-cursors-theme (0.2.0) torbellino; urgency=medium
+
+  * Include Huayra cursor theme
+
+ -- Matias De lellis <mati86dl@gmail.com>  Fri, 05 Jun 2015 14:16:10 -0300
+
 huayra-cursors-theme (0.1.0) torbellino; urgency=medium
 
   * Version Inicial
