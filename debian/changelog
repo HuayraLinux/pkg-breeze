@@ -1,3 +1,16 @@
+huayra-cursors-theme (0.2.2) torbellino; urgency=medium
+
+  * Activa por defecto el Breeze_Huayra como cursor.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 17 Sep 2015 13:33:54 -0300
+
+huayra-cursors-theme (0.2.1) torbellino; urgency=medium
+
+  * Mejoras en el thema de Huayra.
+  * Implementa alternatives para poner un tema por defecto a todo el sistema.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 17 Sep 2015 11:01:51 -0300
+
 huayra-cursors-theme (0.2.0) torbellino; urgency=medium
 
   * Include Huayra cursor theme

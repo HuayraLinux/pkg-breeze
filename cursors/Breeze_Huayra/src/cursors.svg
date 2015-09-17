@@ -24,17 +24,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6511732"
-     inkscape:cx="172.10733"
-     inkscape:cy="-23.39934"
+     inkscape:cx="98.220472"
+     inkscape:cy="194.62745"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      showgrid="true"
      showborder="true"
      inkscape:snap-bbox="true"
-     inkscape:window-width="1913"
-     inkscape:window-height="1030"
+     inkscape:window-width="1433"
+     inkscape:window-height="849"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -42,7 +42,8 @@
      inkscape:snap-global="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-midpoints="false"
-     inkscape:snap-bbox-edge-midpoints="false">
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-grids="true">
     <inkscape:grid
        id="grid11941"
        type="xygrid"
@@ -16458,7 +16459,7 @@
   <g
      sodipodi:insensitive="true"
      transform="translate(0,-19)"
-     style="display:inline;opacity:0.4"
+     style="display:none;opacity:0.4"
      inkscape:label="Guides"
      id="layer4"
      inkscape:groupmode="layer">
@@ -16708,8 +16709,7 @@
      transform="translate(0,-19)"
      inkscape:label="Borders"
      id="layer2"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <rect
        y="19"
        x="0"
