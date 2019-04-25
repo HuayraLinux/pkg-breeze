@@ -1,3 +1,10 @@
+huayra-cursors-theme (0.3.0) unstable; urgency=medium
+
+  * Limpiando el paquete
+  * Tema Huayra 4
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Wed, 24 Apr 2019 15:00:41 -0300
+
 huayra-cursors-theme (0.2.0) torbellino; urgency=medium
 
   * Include Huayra cursor theme

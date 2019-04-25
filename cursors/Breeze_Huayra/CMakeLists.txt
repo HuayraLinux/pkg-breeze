@@ -1,1 +1,0 @@
-install(DIRECTORY Breeze_Huayra DESTINATION ${ICON_INSTALL_DIR})

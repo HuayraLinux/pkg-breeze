@@ -11,7 +11,7 @@ Priority: optional
 Architecture: all
 Depends: ${misc:Depends}
 Description: Todos los temas de cursores para Huayra GNU/Linux.
- Entan basados en el thema Breeze utilizado en Kde 5.0, y
+ Estan basados en el thema Breeze utilizado en Kde 5.0, y
  fueron modificados para proveer tamaños grandes para mejorar
  la accesibildad.
 

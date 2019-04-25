@@ -62,7 +62,7 @@ def gen_config(content, size=[1, 2, 3, 4]):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("ruta",
-                        help='Carpeta con lo icono.',
+                        help='Carpeta con los iconos.',
                         nargs='?',
                         default='./'
     )
