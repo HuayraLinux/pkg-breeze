@@ -24,15 +24,25 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6511732"
+<<<<<<< HEAD:cursors/huayra-liso/src/cursors.svg
      inkscape:cx="204.20572"
      inkscape:cy="138.30387"
+=======
+     inkscape:cx="98.220472"
+     inkscape:cy="194.62745"
+>>>>>>> 64ac3e459259cc8d5fd212abc1b7381d67b98e3a:cursors/Breeze_Huayra/src/cursors.svg
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      showgrid="true"
      showborder="true"
      inkscape:snap-bbox="true"
+<<<<<<< HEAD:cursors/huayra-liso/src/cursors.svg
      inkscape:window-width="1920"
      inkscape:window-height="1027"
+=======
+     inkscape:window-width="1433"
+     inkscape:window-height="849"
+>>>>>>> 64ac3e459259cc8d5fd212abc1b7381d67b98e3a:cursors/Breeze_Huayra/src/cursors.svg
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -42,7 +52,8 @@
      inkscape:snap-global="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-midpoints="false"
-     inkscape:snap-bbox-edge-midpoints="false">
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-grids="true">
     <inkscape:grid
        id="grid11941"
        type="xygrid"
@@ -16792,8 +16803,7 @@
      transform="translate(0,-19)"
      inkscape:label="Borders"
      id="layer2"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <rect
        y="19"
        x="0"

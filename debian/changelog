@@ -1,9 +1,24 @@
+<<<<<<< HEAD
 huayra-cursors-theme (0.3.0) unstable; urgency=medium
 
   * Limpiando el paquete
   * Tema Huayra 4
 
  -- Claudio Andaur <malefico3d@gmail.com>  Wed, 24 Apr 2019 15:00:41 -0300
+=======
+huayra-cursors-theme (0.2.2) torbellino; urgency=medium
+
+  * Activa por defecto el Breeze_Huayra como cursor.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 17 Sep 2015 13:33:54 -0300
+
+huayra-cursors-theme (0.2.1) torbellino; urgency=medium
+
+  * Mejoras en el thema de Huayra.
+  * Implementa alternatives para poner un tema por defecto a todo el sistema.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 17 Sep 2015 11:01:51 -0300
+>>>>>>> 64ac3e459259cc8d5fd212abc1b7381d67b98e3a
 
 huayra-cursors-theme (0.2.0) torbellino; urgency=medium
 
