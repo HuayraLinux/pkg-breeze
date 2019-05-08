@@ -1,0 +1,9 @@
+[Icon Theme]
+Name=HuayraLiso
+Name[es]=HuayraLiso
+Comment=Huayra Cursor Theme
+Comment[es]=Tema flat de cursores de Huayra
+Inherits=Huayra Liso
+
+[Desktop Entry]
+Name[es_AR]=HuayraLiso.theme

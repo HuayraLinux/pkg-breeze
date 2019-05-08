@@ -1,0 +1,9 @@
+[Icon Theme]
+Name=Huayra4
+Name[es]=Huayra4
+Comment=Huayra Cursor Theme
+Comment[es]=Tema 8 bits de cursores de Huayra
+Inherits=Huayra 4
+
+[Desktop Entry]
+Name[es_AR]=Huayra4.theme

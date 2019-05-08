@@ -1,1 +1,0 @@
-install(DIRECTORY huayra-liso DESTINATION ${ICON_INSTALL_DIR})
