@@ -20,8 +20,8 @@ set -e
 PRIORITY=100
 TARGET=/usr/share/icons/default/index.theme
 ICONDIR=/etc/X11/cursors
-THEMES="huayra-liso \
-	huayra-4"
+THEMES="HuayraLiso \
+	Huayra4"
 
 case "$1" in
     configure)
@@ -31,7 +31,7 @@ case "$1" in
                 update-alternatives --install $TARGET x-cursor-theme ${ICONDIR}/${theme}.theme $PRIORITY
             fi
 	done
-    update-alternatives --set x-cursor-theme ${ICONDIR}/Breeze_Huayra.theme
+    update-alternatives --set x-cursor-theme ${ICONDIR}/Huayra4.theme
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

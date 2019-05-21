@@ -1,3 +1,16 @@
+huayra-cursors-theme (0.3.2) unstable; urgency=medium
+
+  * Corrigiendo tamaños no válidos en config/*.cursor.
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Mon, 13 May 2019 12:19:37 -0300
+
+huayra-cursors-theme (0.3.1) unstable; urgency=medium
+
+  * Corrigiendo errores de paquete anterior.
+  * Completando tema Huayra4.
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Thu, 09 May 2019 12:29:19 -0300
+
 huayra-cursors-theme (0.3.0) unstable; urgency=medium
 
   * Limpiando el paquete

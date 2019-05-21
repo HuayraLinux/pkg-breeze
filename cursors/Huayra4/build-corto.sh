@@ -81,47 +81,6 @@ echo -e "\033[0KGenerating simple cursor pixmaps... DONE"
 
 
 
-for i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23
-do
-	echo -ne "\033[0KGenerating animated cursor pixmaps... $i / 23 \\r"
-
-	if [ "$DIR1X/progress-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i progress-$i -d 72  -f $RAWSVG -e "$DIR1X/progress-$i.png" > /dev/null
-	fi
-
-	if [ "$DIR2X/progress-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i progress-$i -d 144 -f $RAWSVG -e "$DIR2X/progress-$i.png" > /dev/null
-	fi
-
-	if [ "$DIR3X/progress-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i progress-$i -d 192 -f $RAWSVG -e "$DIR3X/progress-$i.png" > /dev/null
-	fi
-
-	if [ "$DIR4X/progress-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i progress-$i -d 288 -f $RAWSVG -e "$DIR4X/progress-$i.png" > /dev/null
-	fi
-
-	if [ "$DIR1X/wait-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i wait-$i -d 72  -f $RAWSVG -e "$DIR1X/wait-$i.png" > /dev/null
-	fi
-
-	if [ "$DIR2X/wait-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i wait-$i -d 144 -f $RAWSVG -e "$DIR2X/wait-$i.png" > /dev/null
-	fi
-
-	if [ "$DIR3X/wait-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i wait-$i -d 192 -f $RAWSVG -e "$DIR3X/wait-$i.png" > /dev/null
-	fi
-
-	if [ "$DIR4X/wait-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i wait-$i -d 288 -f $RAWSVG -e "$DIR4X/wait-$i.png" > /dev/null
-	fi
-
-done
-echo -e "\033[0KGenerating animated cursor pixmaps... DONE"
-
-
-
 echo -ne "Generating cursor theme...\\r"
 for CUR in src/config/*.cursor; do
 	BASENAME=$CUR

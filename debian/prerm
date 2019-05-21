@@ -17,8 +17,8 @@ set -e
 # the debian-policy package
 
 ICONDIR=/etc/X11/cursors
-THEMES="huayra-liso \
-    huayra-4"
+THEMES="HuayraLiso \
+    	Huayra4"
 
 case "$1" in
     remove|deconfigure)
