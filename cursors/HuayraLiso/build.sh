@@ -67,14 +67,14 @@ for CUR in src/config/*.cursor; do
 	fi
 
 	if [ "$DIR2X/$BASENAME.png" -ot $RAWSVG ] ; then
-		inkscape -i $BASENAME -d 144 -f $RAWSVG -e "$DIR2X/$BASENAME.png" > /dev/null
+		inkscape -i $BASENAME -d 96 -f $RAWSVG -e "$DIR2X/$BASENAME.png" > /dev/null
 	fi
 
 	if [ "$DIR3X/$BASENAME.png" -ot $RAWSVG ] ; then
-		inkscape -i $BASENAME -d 192 -f $RAWSVG -e "$DIR3X/$BASENAME.png" > /dev/null
+		inkscape -i $BASENAME -d 144 -f $RAWSVG -e "$DIR3X/$BASENAME.png" > /dev/null
 	fi
 	if [ "$DIR4X/$BASENAME.png" -ot $RAWSVG ] ; then
-		inkscape -i $BASENAME -d 288 -f $RAWSVG -e "$DIR4X/$BASENAME.png" > /dev/null
+		inkscape -i $BASENAME -d 192 -f $RAWSVG -e "$DIR4X/$BASENAME.png" > /dev/null
 	fi
 done
 echo -e "\033[0KGenerating simple cursor pixmaps... DONE"
@@ -90,15 +90,15 @@ do
 	fi
 
 	if [ "$DIR2X/progress-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i progress-$i -d 144 -f $RAWSVG -e "$DIR2X/progress-$i.png" > /dev/null
+		inkscape -i progress-$i -d 96 -f $RAWSVG -e "$DIR2X/progress-$i.png" > /dev/null
 	fi
 
 	if [ "$DIR3X/progress-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i progress-$i -d 192 -f $RAWSVG -e "$DIR3X/progress-$i.png" > /dev/null
+		inkscape -i progress-$i -d 144 -f $RAWSVG -e "$DIR3X/progress-$i.png" > /dev/null
 	fi
 
 	if [ "$DIR4X/progress-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i progress-$i -d 288 -f $RAWSVG -e "$DIR4X/progress-$i.png" > /dev/null
+		inkscape -i progress-$i -d 192 -f $RAWSVG -e "$DIR4X/progress-$i.png" > /dev/null
 	fi
 
 	if [ "$DIR1X/wait-$i.png" -ot $RAWSVG ] ; then
@@ -106,15 +106,15 @@ do
 	fi
 
 	if [ "$DIR2X/wait-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i wait-$i -d 144 -f $RAWSVG -e "$DIR2X/wait-$i.png" > /dev/null
+		inkscape -i wait-$i -d 96 -f $RAWSVG -e "$DIR2X/wait-$i.png" > /dev/null
 	fi
 
 	if [ "$DIR3X/wait-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i wait-$i -d 192 -f $RAWSVG -e "$DIR3X/wait-$i.png" > /dev/null
+		inkscape -i wait-$i -d 144 -f $RAWSVG -e "$DIR3X/wait-$i.png" > /dev/null
 	fi
 
 	if [ "$DIR4X/wait-$i.png" -ot $RAWSVG ] ; then
-		inkscape -i wait-$i -d 288 -f $RAWSVG -e "$DIR4X/wait-$i.png" > /dev/null
+		inkscape -i wait-$i -d 192 -f $RAWSVG -e "$DIR4X/wait-$i.png" > /dev/null
 	fi
 
 done

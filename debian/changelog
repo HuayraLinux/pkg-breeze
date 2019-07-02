@@ -1,3 +1,27 @@
+huayra-cursors-theme (0.3.6) unstable; urgency=medium
+
+  * Fix en hotspot de bottom_left/right y top_left/right
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Tue, 02 Jul 2019 14:00:10 -0300
+
+huayra-cursors-theme (0.3.5) unstable; urgency=medium
+
+  * Reajustando hotspots desalineados de cursores
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Wed, 26 Jun 2019 14:53:58 -0300
+
+huayra-cursors-theme (0.3.4) unstable; urgency=medium
+
+  * Fix escalas de los iconos en temas Liso y Huayra4
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Mon, 10 Jun 2019 14:47:06 -0300
+
+huayra-cursors-theme (0.3.3) unstable; urgency=medium
+
+  * Modificacion en diseño de cursor wait.
+
+ -- Claudio Andaur <malefico3d@gmail.com>  Wed, 22 May 2019 14:13:54 -0300
+
 huayra-cursors-theme (0.3.2) unstable; urgency=medium
 
   * Corrigiendo tamaños no válidos en config/*.cursor.
