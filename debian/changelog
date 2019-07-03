@@ -1,6 +1,8 @@
 huayra-cursors-theme (0.3.6) unstable; urgency=medium
 
   * Fix en hotspot de bottom_left/right y top_left/right
+  * Fix en hotspot de bottom_side, down-arrow
+  * Correccion en animacion de wait cursor.
 
  -- Claudio Andaur <malefico3d@gmail.com>  Tue, 02 Jul 2019 14:00:10 -0300
 
