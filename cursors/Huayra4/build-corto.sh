@@ -67,19 +67,16 @@ for CUR in src/config/*.cursor; do
 	fi
 
 	if [ "$DIR2X/$BASENAME.png" -ot $RAWSVG ] ; then
-		inkscape -i $BASENAME -d 144 -f $RAWSVG -e "$DIR2X/$BASENAME.png" > /dev/null
+		inkscape -i $BASENAME -d 96 -f $RAWSVG -e "$DIR2X/$BASENAME.png" > /dev/null
 	fi
 
 	if [ "$DIR3X/$BASENAME.png" -ot $RAWSVG ] ; then
 		inkscape -i $BASENAME -d 192 -f $RAWSVG -e "$DIR3X/$BASENAME.png" > /dev/null
 	fi
 	if [ "$DIR4X/$BASENAME.png" -ot $RAWSVG ] ; then
-		inkscape -i $BASENAME -d 288 -f $RAWSVG -e "$DIR4X/$BASENAME.png" > /dev/null
+		inkscape -i $BASENAME -d 384 -f $RAWSVG -e "$DIR4X/$BASENAME.png" > /dev/null
 	fi
 done
-echo -e "\033[0KGenerating simple cursor pixmaps... DONE"
-
-
 
 echo -ne "Generating cursor theme...\\r"
 for CUR in src/config/*.cursor; do
@@ -94,30 +91,5 @@ for CUR in src/config/*.cursor; do
 	fi
 done
 echo -e "Generating cursor theme... DONE"
-
-
-
-echo -ne "Generating shortcuts...\\r"
-while read ALIAS ; do
-	FROM=${ALIAS% *}
-	TO=${ALIAS#* }
-
-	if [ -e "$OUTPUT/cursors/$FROM" ] ; then
-		continue
-	fi
-
-	ln -s "$TO" "$OUTPUT/cursors/$FROM"
-done < $ALIASES
-echo -e "\033[0KGenerating shortcuts... DONE"
-
-
-
-echo -ne "Copying Theme Index...\\r"
-	if ! [ -e "$OUTPUT/$INDEX" ] ; then
-		cp $INDEX "$OUTPUT/cursor.theme"
-	fi
-echo -e "\033[0KCopying Theme Index... DONE"
-
-
 
 echo "COMPLETE!"

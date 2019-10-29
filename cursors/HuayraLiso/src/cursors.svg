@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="414.86422"
-     inkscape:cy="178.83426"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="331.60734"
+     inkscape:cy="-30.096196"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="webslicer-layer"
      showgrid="true"
      showborder="true"
      inkscape:snap-bbox="true"
@@ -10335,17 +10335,6 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccccccc" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="731.08423"
-       y="1157.1272"
-       id="text25472"><tspan
-         sodipodi:role="line"
-         id="tspan25474"
-         x="731.08423"
-         y="1157.1272"
-         style="font-size:16.59680939px;line-height:1.25">ok</tspan></text>
     <g
        style="display:inline"
        id="g17968-3-0"
@@ -13591,7 +13580,7 @@
     </g>
     <g
        id="g18572"
-       transform="translate(9.5114793,-86.888241)">
+       transform="translate(9.5114793,-89.063431)">
       <g
          style="display:inline;opacity:0.95"
          id="g43058-5-3"
@@ -16388,7 +16377,7 @@
        id="rect11944-6-3-5-8-6-2-5-3"
        style="fill:#000000;fill-opacity:1;stroke:none" />
     <rect
-       transform="matrix(0,1,-1,0,0,0)"
+       transform="rotate(90)"
        y="-431"
        x="80"
        height="431"
@@ -16396,7 +16385,7 @@
        id="rect11944-6-6"
        style="fill:#000000;fill-opacity:1;stroke:none" />
     <rect
-       transform="matrix(0,1,-1,0,0,0)"
+       transform="rotate(90)"
        y="-431"
        x="130"
        height="431"
@@ -16404,7 +16393,7 @@
        id="rect11944-6-6-4"
        style="fill:#000000;fill-opacity:1;stroke:none" />
     <rect
-       transform="matrix(0,1,-1,0,0,0)"
+       transform="rotate(90)"
        y="-431"
        x="180"
        height="431"
@@ -16412,7 +16401,7 @@
        id="rect11944-6-6-4-7"
        style="fill:#000000;fill-opacity:1;stroke:none" />
     <rect
-       transform="matrix(0,1,-1,0,0,0)"
+       transform="rotate(90)"
        y="-431"
        x="230"
        height="431"
@@ -16420,7 +16409,7 @@
        id="rect11944-6-6-4-7-8"
        style="fill:#000000;fill-opacity:1;stroke:none" />
     <rect
-       transform="matrix(0,1,-1,0,0,0)"
+       transform="rotate(90)"
        y="-431"
        x="280"
        height="431"
@@ -16428,7 +16417,7 @@
        id="rect11944-6-6-4-7-8-8"
        style="fill:#000000;fill-opacity:1;stroke:none" />
     <rect
-       transform="matrix(0,1,-1,0,0,0)"
+       transform="rotate(90)"
        y="-431"
        x="330"
        height="431"
@@ -18141,7 +18130,7 @@ layout-position-anchor: tl</desc>
        width="32"
        height="32"
        style="display:inline;opacity:0.5;fill:#ff0000"
-       inkscape:label="#top_left_corner">
+       inkscape:label="top_left_corner">
       <desc
          id="desc54999-7">format: png
 dpi: 90

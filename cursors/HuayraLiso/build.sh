@@ -142,7 +142,9 @@ echo -ne "Generating shortcuts...\\r"
 while read ALIAS ; do
 	FROM=${ALIAS% *}
 	TO=${ALIAS#* }
-
+    echo $FROM
+    echo $TO
+    
 	if [ -e "$OUTPUT/cursors/$FROM" ] ; then
 		continue
 	fi
