@@ -21,7 +21,8 @@ PRIORITY=100
 TARGET=/usr/share/icons/default/index.theme
 ICONDIR=/etc/X11/cursors
 THEMES="HuayraLiso \
-	Huayra4"
+	Huayra4 \
+	Huayra6"
 
 case "$1" in
     configure)

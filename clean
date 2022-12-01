@@ -1,7 +1,8 @@
 #!/bin/bash
 
 THEMES="HuayraLiso \
-		Huayra4"
+		Huayra4 \
+		Huayra6"
 
 
 for theme in $THEMES

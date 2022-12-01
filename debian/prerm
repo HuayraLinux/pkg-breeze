@@ -18,7 +18,8 @@ set -e
 
 ICONDIR=/etc/X11/cursors
 THEMES="HuayraLiso \
-    	Huayra4"
+	Huayra4 \
+	Huayra6"
 
 case "$1" in
     remove|deconfigure)

@@ -1,3 +1,9 @@
+huayra-cursors-theme (0.3.9) torbellino; urgency=medium
+
+  * Esqueleto de nuevo tema de cursores para huayra 6
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 01 Dec 2022 09:55:53 -0300
+
 huayra-cursors-theme (0.3.8) unstable; urgency=medium
 
   * Fixes en bordes de iconos tema Huayra4
